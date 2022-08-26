@@ -1,3 +1,13 @@
+title {
+    position: absolute;
+    top: 1px;
+    left: 23%;
+    color: #FFFFFF;
+    font-family: 'Minecraft';
+    font-size: 400%;
+    z-index: 3;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
 h1 {
     position: absolute;
     top: 1px;
@@ -10,7 +20,7 @@ h1 {
 }
 p {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 85%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
@@ -63,7 +73,7 @@ p {
     position: absolute;
     top: 25%;
     left: 30px;
-    width: 15;
+    width: 15%;
     height: 10%;
     z-index: 2;
 }
