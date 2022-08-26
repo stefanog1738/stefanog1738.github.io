@@ -4,9 +4,18 @@ h1 {
     left: 23%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 100%;
+    font-size: 400%;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+p {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 300%;
+    z-index: 3;
 }
 .background {
     position: absolute;
@@ -22,7 +31,7 @@ h1 {
     position: absolute;
     top: 85%;
     left: 30px;
-    width: 15;
+    width: 15%;
     height: 10%;
     z-index: 2;
 }
@@ -30,7 +39,7 @@ h1 {
     position: absolute;
     top: 70%;
     left: 30px;
-    width: 15;
+    width: 15%;
     height: 10%;
     z-index: 2;
 }
@@ -38,7 +47,7 @@ h1 {
     position: absolute;
     top: 55%;
     left: 30px;
-    width: 15;
+    width: 15%;
     height: 10%;
     z-index: 2;
 }
@@ -54,7 +63,7 @@ h1 {
     position: absolute;
     top: 25%;
     left: 30px;
-    width: 15%;
+    width: 15;
     height: 10%;
     z-index: 2;
 }
