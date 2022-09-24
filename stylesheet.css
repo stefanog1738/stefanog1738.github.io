@@ -1,31 +1,22 @@
 /* index.html */
-title {
-    position: absolute;
-    top: 1px;
-    left: 23%;
-    color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 400%;
-    z-index: 3;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
+
 h1.maintitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3.25vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 p {
     position: absolute;
-    top: 85%;
+    top: 86%;
     left: 85%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 300%;
+    font-size: 3vw;
     z-index: 3;
 }
 .mainbackground {
@@ -35,37 +26,36 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
 }
 .aboutme {
     position: absolute;
     top: 85%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    left: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .isp {
     position: absolute;
     top: 70%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    left: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .classd {
     position: absolute;
     top: 55%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    left: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .extra {
     position: absolute;
     top: 40%;
-    left: 30px;
+    left: 2%;
     width: 15%;
     height: 10%;
     z-index: 2;
@@ -73,55 +63,57 @@ p {
 .importance {
     position: absolute;
     top: 25%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    left: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .fingerprints {
     position: absolute;
     top: 25%;
-    right: 30px;
-    width: 15%;
-    height: 10%;
+    right: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .ai {
     position: absolute;
     top: 40%;
-    right: 30px;
-    width: 15%;
-    height: 10%;
+    right: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 .optimal {
     position: absolute;
     top: 55%;
-    right: 30px;
-    width: 15%;
-    height: 10%;
+    right: 2%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 /* importance.html */
 h1.titleimportance {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.importanceparagraph {
     position: absolute;
+    text-align: center;
+    line-height: 2;
     top: 25%;
-    left: 5%;
+    left: 15%;
+    right: 15%;
     color: #FFFFFF;
     font-family: 'MinecraftiaRegular';
     font-weight: normal;
-    font-style: normal;
-    font-size: 300%;
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
@@ -133,141 +125,158 @@ h2.importanceparagraph {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
 }
 /* universal back button */
 .back {
-    position: absolute;
-    top: 85%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    position: fixed;
+    top: 88%;
+    left: 1%;
+    width: 15vw;
+    height: 5vw;
     z-index: 2;
 }
 
 /* extra.html */
 h1.extratitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.extraparagraph {
     position: absolute;
+    text-align: center;
+    line-height: 2;
     top: 25%;
-    left: 5%;
+    left: 15%;
+    right: 15%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 300%;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 /* directory.html */
 h1.directorytitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;.
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.directoryparagraph {
     position: absolute;
+    text-align: center;
+    line-height: 2;
     top: 25%;
-    left: 5%;
+    left: 15%;
+    right: 15%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 300%;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 /* isp.css */
 h1.isptitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.ispparagraph {
     position: absolute;
-    top: 15%;
-    left: 1%;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    right: 5%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 200%;
+    font-family: 'MinecraftiaRegular';
+    font-size: 1.3vw;
+    font-weight: normal;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h3.ispcode1 {
     position: absolute;
-    top: 83%;
-    left: 70%;
+    top: 143%;
+    left: 20%;
+    right: 29%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 125%;
+    font-family: 'Minecraftia';
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    font-weight: normal;
 }
 h4.ispcode2 {
     position: absolute;
     text-align: center;
-    top: 53%;
-    left: 00%;
-    right: 80%;
+    top: 85%;
+    left: 40%;
+    right: 5%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 125%;
+    font-family: 'Minecraftia';
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
     text-align: left;
+    font-weight: normal;
 }
 .code1 {
     position: absolute;
-    top: 45%;
-    left: 75%;
-    width: 20%;
-    height: 40%;
+    top: 125%;
+    left: 73%;
+    width: 25%;
+    height: 50%;
     z-index: 2;
 }
 .code2 {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    width: 20%;
-    height: 40%;
+    top: 75%;
+    left: 2%;
+    width: 35%;
+    height: 45%;
     z-index: 2;
 }
 
 /* aboutme.html */
 h1.aboutmetitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.aboutmeparagraph {
     position: absolute;
-    top: 25%;
-    left: 5%;
+    text-align: center;
+    line-height: 2;
+    top: 15%;
+    left: 10%;
+    right: 10%;
     color: #FFFFFF;
-    font-family: 'Minecraft';
-    font-size: 300%;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-size: 1.2vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
@@ -275,210 +284,121 @@ h2.aboutmeparagraph {
 /*fingerprints.html*/
 
 h1.fingertitle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h2.fingerparagraph1 {
-    position: absolute;
-    text-indent: 80px;
-    top: 100%;
-    left: 5%;
-    right: 5%;
+h2.essaytitle{
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.5vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h3.fingerparagraph2 {
+.fingerp {
     position: absolute;
-    text-indent: 80px;
-    top: 135%;
-    left: 5%;
-    right: 5%;
+    top: 60%;
+    width: 20%;
+    left: 19.25%;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+    z-index: 2;
+}
+.para {
+    position: relative;
+    text-indent: 3vw;
+    line-height: 2;
+    top: 20%;
+    width: 300%;
+    left: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.2vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h4.fingerparagraph3 {
-    position: absolute;
-    text-indent: 80px;
-    top: 205%;
-    left: 5%;
-    right: 5%;
+.heading {
+    position: relative;
+    top: 8%;
+    width: 20%;
+    left: 19.25%;
+    margin: 5px;
+    padding: 5px;
     color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px b
-lack, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h5.fingerparagraph4 {
-    position: absolute;
-    text-indent: 80px;
-    top: 240%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
+.head {
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    width: 300%;
+    top: 8%;
+    left: 0%;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.5vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h6.header6 {
+.reference {
     position: absolute;
-    top: 15%;
-    left: 30%;
-    right: 20%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px b
-lack, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h7.header7 {
-    position: absolute;
-    text-indent: 80px;
-    top: 35%;
+    top: 200%;
     left: 40%;
-    right: 20%;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
     color: #FFFFFF;
+    z-index: 2;
+}
+.cite {
+    position: relative;
+    padding-left: 2vw;
+    line-height: 2;
+    text-indent: -2.5vw;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.2vw;
+    top: 165vw;
+    width: 60%;
+    left: 20%;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-h8.header8 {
+.reference2 {
     position: absolute;
-    text-indent: 80px;
-    top: 40%;
-    left: 36%;
-    right: 20%;
+    top: 200%;
+    left: 5%;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
     color: #FFFFFF;
+    z-index: 2;
+}
+.cite2 {
+    position: relative;
+    padding-left: 2vw;
+    line-height: 2;
+    text-indent: -2.5vw;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.2vw;
+    top: 50vw;
+    width: 60%;
+    left: 20%;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h9.header9 {
-    position: absolute;
-    text-indent: 80px;
-    top: 45%;
-    left: 37%;
-    right: 25%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h10.header10 {
-    position: absolute;
-    text-indent: 80px;
-    top: 50%;
-    left: 39%;
-    right: 35%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h11.header11 {
-    position: absolute;
-    text-indent: 80px;
-    top: 55%;
-    left: 39%;
-    right: 20%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h15.reference4 {
-    position: absolute;
-    top: 425%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h17.reference6 {
-    position: absolute;
-    top: 440%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h13.reference2 {
-    position: absolute;
-    top: 455%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h12.reference1 {
-    position: absolute;
-    top: 470%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h16.reference5 {
-    position: absolute;
-    top: 485%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h14.reference3 {
-    position: absolute;
-    top: 500%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h18.referencetitle {
     position: absolute;
-    top: 400%;
-    left: 35%;
-    right: 5%;
+    text-align: center;
+    top: 387.5%;
+    left: 20%;
+    right: 20%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;;
-    font-size: 300%;
+    font-size: 2.5vw;
     z-index: 2;
 }
 .background2 {
@@ -488,7 +408,6 @@ h18.referencetitle {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
 }
 .background3 {
@@ -498,7 +417,6 @@ h18.referencetitle {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
 }
 .background4 {
@@ -508,7 +426,6 @@ h18.referencetitle {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
 }
 .background5 {
@@ -518,382 +435,142 @@ h18.referencetitle {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    point-event: none;
     z-index: 1;
-}
-.background6 {
-    position: absolute;
-    top: 500%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.fingerback {
-    position: absolute;
-    top: 585%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
-    z-index: 2;
 }
 .flowchart {
     position: absolute;
-    top: 300%;
-    left: 20%;
-    width: 40%;
-    height: 80%;
+    top: 290%;
+    left: 30%;
+    width: 40vw;
+    height: 40vw;
     z-index: 2;
+    margin: 5px;
+    padding: 5px;
 }
 
 /* AI Sentience.html */
 
 h1.aititle {
-    position: absolute;
-    top: 1px;
-    left: 23%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h2.aiparagraph1 {
-    position: absolute;
-    text-indent: 80px;
-    top: 100%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h3.aiparagraph2 {
-    position: absolute;
-    text-indent: 80px;
-    top: 155%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h4.aiparagraph3 {
-    position: absolute;
-    text-indent: 80px;
-    top: 225%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h5.aiparagraph4 {
-    position: absolute;
-    text-indent: 80px;
-    top: 295%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h6.aiheader6 {
     position: absolute;
-    top: 15%;
-    left: 30%;
-    right: 20%;
+    text-align: center;
+    top: 3vw;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px b
-																														    lack, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h7.aiheader7 {
-    position: absolute;
-    text-indent: 80px;
-    top: 35%;
-    left: 40%;
-    right: 20%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h8.aiheader8 {
-    position: absolute;
-    text-indent: 80px;
-    top: 40%;
-    left: 36%;
-    right: 20%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h9.aiheader9 {
-    position: absolute;
-    text-indent: 80px;
-    top: 45%;
-    left: 37%;
-    right: 25%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h10.aiheader10 {
-    position: absolute;
-    text-indent: 80px;
-    top: 50%;
-    left: 39%;
-    right: 35%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h11.aiheader11 {
-    position: absolute;
-    text-indent: 80px;
-    top: 55%;
-    left: 39%;
-    right: 20%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h15.aireference4 {
-    position: absolute;
-    top: 470%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h13.aireference2 {
-    position: absolute;
-    top: 440%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h12.aireference1 {
-    position: absolute;
-    top: 425%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
-    z-index: 2;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-h14.aireference3 {
-    position: absolute;
-    top: 455%;
-    left: 5%;
-    right: 5%;
-    color: #FFFFFF;
-    font-family: "Times New Roman", Times, serif;;
-    font-size: 200%;
+    font-size: 1.5vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h18.aireferencetitle {
     position: absolute;
-    top: 400%;
-    left: 35%;
-    right: 5%;
+    text-align: center;
+    top: 290%;
+    left: 20%;
+    right: 20%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;;
-    font-size: 300%;
-    z-index: 2;
-}
-.aibackground2 {
-    position: absolute;
-    top: 100%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.aibackground3 {
-    position: absolute;
-    top: 200%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.aibackground4 {
-    position: absolute;
-    top: 300%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.aibackground5 {
-    position: absolute;
-    top: 400%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.aibackground6 {
-    position: absolute;
-    top: 500%;
-    Left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.aiback {
-    position: absolute;
-    top: 585%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+    font-size: 2.5vw;
     z-index: 2;
 }
 /* optimal.html */
 
 h1.optimaltitle {
-    position: absolute;
-    top: 1px;
-    left: 35%;
+    position: relative;
+    text-align: center;
+    top: 1%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 400%;
+    font-size: 3vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 h2.optimal2{
-    position: absolute;
+    position: relative;
+    text-align: center;
     top: 15%;
-    left: 43%;
-    right: 20%;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 175%;
+    font-size: 1.4vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 h3.optimal3 {
-    position: absolute;
-    top: 23%;
-    left: 43%;
-    right: 20%;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 175%;
+    font-size: 1.4vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 h4.optimal4 {
-    position: absolute;
-    top: 31%;
-    left: 46%;
-    right: 20%;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 175%;
+    font-size: 1.4vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 h5.optimal5 {
-    position: absolute;
-    text-indent: 80px;
-    top: 38%;
-    left: 40%;
-    right: 25%;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: 0%;
+    right: 0%;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.4vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 .optimalchart {
     position: absolute;
     top: 70%;
-    left: 23%;
+    left: 20%;
     width: 50%;
     height: 190%;
     z-index: 2;
 }
-.optimalback {
-    position: absolute;
-    top: 285%;
-    left: 30px;
-    width: 15%;
-    height: 10%;
+p.optimallink {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
     z-index: 2;
 }
-.opbackground2 {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-.opbackground3 {
-    position: absolute;
-    top: 200%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    point-event: none;
-    z-index: 1;
-}
-p.optimallink {
-    positon: absolute;
-    top: 48%;
-    left: 43%;
-    right: 25%;
+p.spreadsheet {
+    position: relative;
+    text-align: center;
+    top: 55%;
+    left: 0%;
+    right: 0%;
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%;
+    font-size: 1.4vw;
     z-index: 2;
 }
