@@ -557,16 +557,6 @@ p.spreadsheet {
     font-size: 1.4vw;
     z-index: 2;
 }
-h6.optimalpart2 {
-    position: absolute;
-    text-align: center;
-    top: 60%;
-    left: 0%;
-    right: 0%;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.4vw;
-    z-index: 2;
-}
 p.optimalspreadsheet {
     position: absolute;
     text-align: center;
@@ -575,5 +565,16 @@ p.optimalspreadsheet {
     right: 0%;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.6vw;
+    z-index: 2;
+}
+h6.optimalpart2 {
+    position: absolute;
+    text-align: center;
+    top: 260%;
+    left: 10%;
+    right: 10%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
+    color: #FFFFFF;
     z-index: 2;
 }
