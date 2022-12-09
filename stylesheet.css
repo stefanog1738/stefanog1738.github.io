@@ -3,21 +3,22 @@
 h1.maintitle {
     position: relative;
     text-align: center;
-    top: 1%;
+    top: 10%;
     color: #FFFFFF;
     font-family: 'Minecraft';
-    font-size: 3.25vw;
+    font-size: 2.75vw;
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 p {
     position: absolute;
-    top: 90%;
-    left: 85%;
-    color: #FFFFFF;
+    top: 1%;
+    left: 88%;
+    color: #000000;
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.3vw;
+    font-size: 2vw;
     z-index: 3;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 .mainbackground {
     position: absolute;
@@ -30,7 +31,7 @@ p {
 }
 .aboutme {
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 2%;
     width: 15vw;
     height: 5vw;
@@ -38,7 +39,7 @@ p {
 }
 .isp {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 2%;
     width: 15vw;
     height: 5vw;
@@ -46,7 +47,7 @@ p {
 }
 .classd {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 2%;
     width: 15vw;
     height: 5vw;
@@ -54,7 +55,7 @@ p {
 }
 .extra {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 2%;
     width: 15%;
     height: 10%;
@@ -62,7 +63,7 @@ p {
 }
 .importance {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 2%;
     width: 15vw;
     height: 5vw;
@@ -70,15 +71,15 @@ p {
 }
 .fingerprints {
     position: absolute;
-    top: 25%;
-    right: 2%;
+    top: 90%;
+    left: 2%;
     width: 15vw;
     height: 5vw;
     z-index: 2;
 }
 .ai {
     position: absolute;
-    top: 40%;
+    top: 15%;
     right: 2%;
     width: 15vw;
     height: 5vw;
@@ -86,7 +87,7 @@ p {
 }
 .optimal {
     position: absolute;
-    top: 55%;
+    top: 30%;
     right: 2%;
     width: 15vw;
     height: 5vw;
@@ -94,7 +95,7 @@ p {
 }
 .buisness {
     position: absolute;
-    top: 70%;
+    top: 45%;
     right: 2%;
     width: 15vw;
     height: 5vw;
@@ -102,12 +103,21 @@ p {
 }
 .consider {
     position: absolute;
-    top: 85%;
+    top: 60%;
     right: 2%;
     width: 15vw;
     height: 5vw;
     z-index: 2;
-}   
+}
+.independent {
+    position: absolute;
+    top: 75%;
+    right: 2%;
+    width: 15vw;
+    height: 5vw;
+    z-index: 2;
+}
+
 /* importance.html */
 h1.titleimportance {
     position: relative;
@@ -546,11 +556,20 @@ h5.optimal5 {
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 .optimalchart {
-    position: absolute;
+    position: relative;
     top: 70%;
-    left: 20%;
+    left: 25%;
     width: 50%;
-    height: 190%;
+    height: 180%;
+    margin-bottom: 10%;
+    z-index: 2;
+}
+.optimalgraph {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 180%;
+    margin-top: 2.5%;
     z-index: 2;
 }
 p.optimallink {
@@ -574,7 +593,7 @@ p.spreadsheet {
     z-index: 2;
 }
 p.optimalspreadsheet {
-    position: absolute;
+    position: relative;
     text-align: center;
     top: 55%;
     left: 0%;
@@ -586,12 +605,42 @@ p.optimalspreadsheet {
 h6.optimalpart2 {
     position: absolute;
     text-align: center;
-    top: 260%;
+    top: 390%;
     left: 10%;
     right: 10%;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.4vw;
     color: #FFFFFF;
+    z-index: 2;
+}
+p.bubblelink {
+    position: relative;
+    text-align: center;
+    top: 55%;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
+    z-index: 2;
+}
+p.insertionlink {
+    position: relative;
+    text-align: center;
+    top: 55%;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
+    z-index: 2;
+}
+p.selectionlink {
+    position: relative;
+    text-align: center;
+    top: 55%;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
     z-index: 2;
 }
 
@@ -1067,5 +1116,50 @@ h11.c11 {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5vw;
     font-weight: bold;
+    z-index: 2;
+}
+/*ISP Getting Started*/
+
+h1.isptitle {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Minecraft';
+    font-size: 3vw;
+    z-index: 2;
+}
+h2.ispparagraph {
+    position: relative;
+    text-align: center;
+    line-height: 2;
+    left: 0%;
+    right: 10px;
+    color: #FFFFFF;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-size: 1.2vw;
+    z-index: 2;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+    
+p.suhraabisp {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
+    z-index: 2;
+}
+
+p.kevinisp {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
     z-index: 2;
 }
