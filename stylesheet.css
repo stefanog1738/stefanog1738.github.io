@@ -1193,3 +1193,11 @@ p.journal {
     z-index: 2;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
+.ispjournal {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    width: 15vw;
+    height: 5vw;
+    z-index: 2;
+}
