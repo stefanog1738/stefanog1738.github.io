@@ -1172,3 +1172,24 @@ p.kevinisp {
     font-size: 1.4vw;
     z-index: 2;
 }
+h1.jour {
+    position: relative;
+    top: 1%;
+    left: 3%;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.7vw;
+    z-index: 2;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+p.journal {
+    position: relative;
+    top: 1%;
+    left: 3%;
+    width: 80%;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3vw;
+    z-index: 2;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
